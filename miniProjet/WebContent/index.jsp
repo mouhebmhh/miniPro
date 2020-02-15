@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=windows-1256"
     pageEncoding="UTF-8"%>
+    
     <%@ page import="java.text.SimpleDateFormat"%>
     <%@ page import="java.util.Date" %>
     <%@ page import="java.io.PrintWriter" %>
@@ -66,7 +67,7 @@
   </header>
 
 
-  <section class="page-section" id="model" style="background-color:#A4A4A4;">
+  <section class="page-section" id="model" >
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
