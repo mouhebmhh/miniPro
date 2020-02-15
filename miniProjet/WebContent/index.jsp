@@ -47,7 +47,7 @@
             <a class="nav-link js-scroll-trigger" href="#model">Modéles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Se connecter</a>
+            <a class="nav-link js-scroll-trigger" href="log1/log/login.jsp">Se connecter</a>
           </li>
         </ul>
       </div>

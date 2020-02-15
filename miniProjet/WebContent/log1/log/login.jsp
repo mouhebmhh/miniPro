@@ -1,14 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    
+<%@ page language="java" contentType="text/html; charset=windows-1256"
+    pageEncoding="windows-1256"%>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login V9</title>
+	<title>Login V9</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -30,13 +29,16 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
 </head>
 <body>
-<div class="container-login100" style="background-image: url('img/header-bg.jpg');">
+	
+	
+	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 		
 		
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<img src="img\icons\icone1.png" alt="" class="rounded-circle">
+			<img src="images\icons\icone1.png" alt="" class="rounded-circle">
 			<form class="login100-form validate-form">
 				<span class="login100-form-title p-b-37">
 					Se connecter
