@@ -1,13 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=windows-1256"
-    pageEncoding="windows-1256"%>
+    pageEncoding="UTF-8"%>
+    <%@ page import="java.text.SimpleDateFormat"%>
+    <%@ page import="java.util.Date" %>
+    <%@ page import="java.io.PrintWriter" %>
+    <%
+    Date date = new Date();
+    SimpleDateFormat dateFormatComp;
+    dateFormatComp = new SimpleDateFormat("dd MMM yyyy hh:mm:ss a");
+    PrintWriter outt=response.getWriter();
+    %>
+
 <!DOCTYPE html>
 <html>
 <head>
 
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+ 
+ <meta charset="UTF-8">
+
 
   <title>Easy Cv</title>
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +30,12 @@
   <link href="css/agency.min.css" rel="stylesheet">
 </head>
 <body id="page-top">
-
+   
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Easy CV</a>
+   <center></center> 
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo.png" alt="" width="80px" height="59px"></a>
+   			<font color="white" ><h6><%=dateFormatComp.format(date) %></h6></font>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -46,10 +57,10 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-      
+      		
         <div class="intro-heading text-uppercase">Easy CV</div>
         <div class=""><h6>Obtenir toute l'aide dont vous avez besoin pour créer en qulques minutes un cv de qualité professinnelle</h6></div>
-        <a class="btn btn-primary" href="#" style="margin:50px;">Crée votre cv</a>
+        <a class="btn btn-primary" href="#" style="margin:50px;">Crée un cv</a>
       </div>
     </div>
   </header>
