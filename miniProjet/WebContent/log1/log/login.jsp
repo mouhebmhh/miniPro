@@ -6,6 +6,15 @@
 	<title>Login V9</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <link href="css/agency.min.css" rel="stylesheet">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -24,6 +33,8 @@
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="../../css/agency.css">
+	<link rel="stylesheet" type="text/css" href="../../css/agency.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -35,11 +46,32 @@
 	
 	
 	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-		
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529; height:5px;">
+    <div class="container">
+
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../../img/logo.png" alt="" width="80px" height="59px"></a>
+   			<font color="white" ><h6></h6></font>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#model">Modéles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="log1/log/login.jsp">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 		
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
 			<img src="images\icons\icone1.png" alt="" class="rounded-circle">
 			<form class="login100-form validate-form">
+			<img src="" width="50px" height="50px">
 				<span class="login100-form-title p-b-37">
 					Se connecter
 				</span>
@@ -104,6 +136,18 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+	 <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+
+  <script src="js/agency.min.js"></script>
 
 </body>
 </html>
