@@ -67,7 +67,7 @@
   </header>
 
 
-  <section class="page-section" id="model" style="background-color:green;">
+  <section class="page-section" id="model" >
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
