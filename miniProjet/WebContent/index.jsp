@@ -16,7 +16,7 @@
 
  
  <meta charset="UTF-8">
-
+		<link rel="icon" type="image/png" href="img/logo.png" />
 
   <title>Easy Cv</title>
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +66,7 @@
   </header>
 
 
-  <section class="page-section" id="model">
+  <section class="page-section" id="model" style="background-color:#A4A4A4;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
