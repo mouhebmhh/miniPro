@@ -180,10 +180,11 @@ iframe {
 
 .wrap-login100 {
   width: 390px;
-  background: #fff;
+  background:#808080;
   border-radius: 10px;
   overflow: hidden;
-
+  margin-top:120px; 
+	
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login V9</title>
+	<title>Easy CV</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 
   <link href="css/agency.min.css" rel="stylesheet">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="../../img/logo.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -41,15 +41,24 @@
 	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 <!--===============================================================================================-->
+<style type="text/css">
+body{
+ background-image: url("../../img/header-bg.jpg");
+ background-repeat:no-repeat;
+ background-position:center;
+ background-attachment: fixed;
+ background-size: 1980px 1524px;
+ }
+</style>
 </head>
 <body>
 	
 	
-	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529; height:5px;">
+	<div class="container-login100">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529; height:72px;">
     <div class="container">
-
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../../img/logo.png" alt="" width="80px" height="59px"></a>
+		
+      <a class="navbar-brand js-scroll-trigger" style="position:absolute;top:-57px;" href="#page-top" ><img src="../../img/logo.png" alt="image" width="80px" height="59px"></a>
    			<font color="white" ><h6></h6></font>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -58,10 +67,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#model">Modéles</a>
+            <a class="nav-link js-scroll-trigger" href="../../index.jsp#model">Modéles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="log1/log/login.jsp">Home</a>
+            <a class="nav-link js-scroll-trigger" href="../../index.jsp">Home</a>
           </li>
         </ul>
       </div>
@@ -69,9 +78,9 @@
   </nav>
 		
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<img src="images\icons\icone1.png" alt="" class="rounded-circle">
+			<img src="images\icons\icone1.png" alt="" class="rounded-circle" style="margin-top:52px;">
 			<form class="login100-form validate-form">
-			<img src="" width="50px" height="50px">
+		
 				<span class="login100-form-title p-b-37">
 					Se connecter
 				</span>
@@ -99,6 +108,12 @@
 					</a>
 				</div>
 				
+		</div>
+		<div class="text-center w-full p-t-9 p-b-50" >
+		<div class="text-center"><center><hr style="border-top: 2px solid white;width:380px; position:center;"></center></div>
+			<div class="text-white">Si vous n'avez pas de compt ?<a href="#" class="txt2 hov1">
+				inscrizez vous
+			</a></div> 
 				</div>
 				
 				 	
@@ -108,11 +123,7 @@
 		</div>
 			
 	
-		<div class="text-center">
-			<a href="#" class="txt2 hov1">
-				Si vous n'avez pas de compt ? inscrizez vous
-			</a>
-		</div>
+		
 	</div>
 	
 
